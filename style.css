@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px 50px 50px;
+    background-color: blue;
+}
+
+article {
+    max-width: 25%;
+    column-gap: 25px;
+    padding: 25px;
+    background-color: white;
+}
+
+img {
+    max-width: 50%;
+}
+
+* {
+    box-sizing: border-box;
+}
